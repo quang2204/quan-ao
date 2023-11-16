@@ -1,0 +1,72 @@
+main .navv {
+    background: #050725;
+    width: 514px;
+    margin-top: -3px;
+
+}
+
+main {
+    display: flex;
+}
+
+.table h2 {
+    margin-top: 200px;
+    margin-bottom: 30px;
+}
+
+.table>:not(caption)>*>* {
+    background-color: white;
+}
+
+main .navv li {
+    font-size: 35px;
+}
+
+main .navv ul {
+    padding: 40px 40px;
+}
+
+.navv a img {
+    width: 45px;
+    margin-right: 20px;
+}
+
+li {
+    padding: 25px 0;
+}
+
+@media (max-width:1030px) {
+
+    main .navv li {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 800px) {
+    main .navv ul {
+        display: flex;
+        gap: 10px;
+    }
+
+    .user {
+        width: 33px !important;
+    }
+
+    .navv a img {
+        width: 22px;
+        padding-bottom: 10px;
+    }
+
+    main .navv li {
+        font-size: 22px;
+    }
+
+    main .navv {
+        width: 100%;
+
+    }
+
+    main {
+        display: grid;
+    }
+}

@@ -1,0 +1,30 @@
+.div {
+
+    width: 100%;
+    max-width: 580px;
+    height: 77px;
+    background: #23CDF2;
+
+}
+
+form button {
+    width: 100%;
+    max-width: 583px;
+    height: 77px;
+    flex-shrink: 0;
+    background: #FCD400;
+    margin-bottom: 50px;
+}
+
+@media (max-width:1000px) {
+    .container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+}
+
+form {
+    padding-left: 100px;
+}
